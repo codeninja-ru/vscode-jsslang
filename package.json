@@ -1,0 +1,25 @@
+{
+  "name": "jsslang",
+  "displayName": "jsslang",
+  "description": "Syntax highlighting for jsslang",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "jsslang",
+      "aliases": ["jsslang", "jsslang"],
+      "extensions": [".jss"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "jsslang",
+      "scopeName": "source.jsslang",
+      "path": "./syntaxes/jsslang.tmLanguage.json"
+    }]
+  }
+}
